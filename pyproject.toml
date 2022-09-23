@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "streamlit-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.12"
+streamlit = "^1.13.0"
+seaborn = "^0.12.0"
+plotly = "^5.10.0"
+scikit-learn = "^1.1.2"
+yfinance = "^0.1.74"
+black = "^22.8.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -12,6 +12,7 @@ plotly = "^5.10.0"
 scikit-learn = "^1.1.2"
 yfinance = "^0.1.74"
 black = "^22.8.0"
+st-annotated-text = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^5.0.4"
